@@ -1,0 +1,84 @@
+#<!-- METADATA START --> # DO NOT DELETE THIS LINE
+# All example text is surrounded with <ex> and </ex>. Please replace the example
+# text including the <ex> and </ex> with your data. Delete all non-applicable
+# lines and sections.
+
+# Attention: indentation is important and must be preserved!
+
+# information on the study the to-be-archived dataset was created for
+
+# mandatory information on to-be-archived dataset
+dataset:
+  # short name or label
+  name: Simulation cost data of large scale spiking neural networks with GeNN and NEST
+
+  # current location of the dataset
+  location: https://github.com/jsheunis/Simulating-SNN-cost-with-GeNN-NEST
+
+  # summary of purpose and content of the dataset
+  description:
+    "This dataset aims to quantify fixed and variable simulation costs on different hardware configurations for biologically realistic modeling of nervous system function with Spiking neural networks (SNN). The systematic calibration for multiple free model parameters to achieve robust network function demands high computing power and large memory resources. Special requirements arise from closed-loop model simulation in virtual environments, and from real-time simulation in robotic application. This dataset allows comparing two complementary approaches to efficient large scale and real-time SNN simulation. The widely used NEural Simulation Technology (NEST) parallelizes simulation across multiple CPU cores. The GPU-enhanced Neural Network (GeNN) simulator uses the highly parallel GPU-based architecture to gain simulation speed. The dataset also includes data of a benchmark model: a spiking cortical attractor network with a topology of densely connected excitatory and inhibitory neuron clusters."
+
+  # optional list of employed standard and format
+  # for automatic generation of rich metadata records
+  # (see handbook for full list)
+
+  # optional list of keyword/phrase
+  keyword:
+    - Spiking neural networks
+    - NEST
+    - GeNN
+    - CPU
+    - GPU
+    - Parallel computing
+    - Simulation
+    - Costs
+    - Benchmark
+
+  # minimum of one dataset author required
+  author:
+    - a@example.com
+    - b@example.com
+    - mnawrot@uni-koeln.de
+
+  # optional list of entities that funded the creation of
+  # the dataset. This might also be a single value, i.e.:
+  #`` funding: NIH´´.
+  funding:
+    - German Research Foundation (DFG), DFG-SFB 1451 (Project-ID 431549029)
+    - German Research Foundation (DFG), Research training group Neural Circuit Analysis (DFG-RTG 1960, grant no. 233886668)
+
+
+# one or more publications on or using the dataset, optional
+publication:
+  - title: "Efficient parameter calibration and real-time simulation of large scale spiking neural networks with GeNN and NEST"
+    author:
+      - a@example.com
+      - b@example.com
+      - mnawrot@uni-koeln.de
+    # when published
+    year: 2022
+    # all other properties are optional
+    # highly recommended to provide a DOI
+    doi: https://doi.org/10.1101/2022.05.13.491646
+    # journal name or publication venue label
+    publication: bioRxiv
+
+# person information, one record for every email-key used above
+person:
+  a@example.com:
+     given_name: Felix Johannes
+     last_name: Schmitt
+     orcid-id: 0000-0002-5902-9372
+  
+  b@example.com:
+     given_name: Vahid
+     last_name: Rostami
+     orcid-id: 0000-0002-3851-0220
+
+  mnawrot@uni-koeln.de:
+     given_name: Martin
+     last_name: Nawrot
+     orcid-id: 0000-0001-6398-6370
+
+#<!-- METADATA END -->  # DO NOT DELETE THIS LINE
