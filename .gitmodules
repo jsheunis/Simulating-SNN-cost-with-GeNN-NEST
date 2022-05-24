@@ -1,0 +1,4 @@
+[submodule "SNN_GeNN_Nest"]
+	path = SNN_GeNN_Nest
+	url = https://github.com/nawrotlab/SNN_GeNN_Nest.git
+	datalad-url = https://github.com/nawrotlab/SNN_GeNN_Nest.git
